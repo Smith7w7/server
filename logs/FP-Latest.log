@@ -1,0 +1,815 @@
+Starting Futurepack 18.7 pre
+Debug Enabled: true
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Setup Industrial Furnace Recipes
+{"name":"IC2:itemIngot","meta":4} is null
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.itemErze@2, 1xitem.itemErze@1] to 6xitem.spaceship@14
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.IC@0, 1xitem.itemErze@1] to 6xitem.spaceship@14
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.itemErze@2, 1xitem.itemErze@0] to 6xitem.spaceship@14
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.itemErze@2, 1xitem.IT@0] to 6xitem.spaceship@14
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.IC@0, 1xitem.itemErze@0] to 6xitem.spaceship@14
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.IC@0, 1xitem.IT@0] to 6xitem.spaceship@14
+IndFurnace: [1xitem.coal@32767, 1xtile.sand@32767, 1xitem.coal@32767] to 4xitem.spaceship@15
+IndFurnace: [1xtile.cristall@0, 1xtile.cristall@0, 1xitem.coal@32767] to 1xitem.itemErze@3
+IndFurnace: [1xtile.cristall@3, 1xtile.cristall@3, 1xitem.coal@32767] to 1xitem.itemErze@5
+IndFurnace: [1xtile.cristall@6, 1xtile.cristall@6, 1xitem.coal@32767] to 1xitem.itemErze@6
+IndFurnace: [1xtile.cristall@9, 1xtile.cristall@9, 1xitem.coal@32767] to 1xitem.itemErze@7
+IndFurnace: [1xtile.erze@3, 1xtile.erze@3] to 1xitem.spaceship@13
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.itemErze@2, 1xitem.itemErze@1] to 6xitem.spaceship@14
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.IC@0, 1xitem.itemErze@1] to 6xitem.spaceship@14
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.itemErze@2, 1xitem.itemErze@0] to 6xitem.spaceship@14
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.itemErze@2, 1xitem.IT@0] to 6xitem.spaceship@14
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.IC@0, 1xitem.itemErze@0] to 6xitem.spaceship@14
+IndFurnace: [1xitem.ingotIron@32767, 1xitem.IC@0, 1xitem.IT@0] to 6xitem.spaceship@14
+IndFurnace: [1xitem.coal@32767, 1xtile.sand@32767, 1xitem.coal@32767] to 4xitem.spaceship@15
+IndFurnace: [1xtile.cristall@0, 1xtile.cristall@0, 1xitem.coal@32767] to 1xitem.itemErze@3
+IndFurnace: [1xtile.cristall@3, 1xtile.cristall@3, 1xitem.coal@32767] to 1xitem.itemErze@5
+IndFurnace: [1xtile.cristall@6, 1xtile.cristall@6, 1xitem.coal@32767] to 1xitem.itemErze@6
+IndFurnace: [1xtile.cristall@9, 1xtile.cristall@9, 1xitem.coal@32767] to 1xitem.itemErze@7
+IndFurnace: [1xtile.erze@3, 1xtile.erze@3] to 1xitem.spaceship@13
+Setup Assermply Recipes
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@11, 1xitem.itemErze@2] to 1xitem.core@0
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@11, 1xitem.IC@0] to 1xitem.core@0
+AssemblyTable: [2xitem.spaceship@15, 2xitem.spaceship@11, 1xitem.itemErze@3] to 1xitem.core@1
+AssemblyTable: [3xitem.spaceship@15, 3xitem.spaceship@11, 1xtile.cristall@3] to 1xitem.core@2
+AssemblyTable: [4xitem.spaceship@15, 4xitem.spaceship@11, 1xitem.itemErze@5] to 1xitem.core@3
+AssemblyTable: [5xitem.spaceship@15, 5xitem.spaceship@11, 1xtile.cristall@6] to 1xitem.core@4
+AssemblyTable: [6xitem.spaceship@15, 6xitem.spaceship@11, 1xitem.itemErze@7] to 1xitem.core@5
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@10, 1xitem.itemErze@2] to 1xitem.ram@0
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@10, 1xitem.IC@0] to 1xitem.ram@0
+AssemblyTable: [2xitem.spaceship@15, 2xitem.spaceship@10, 1xitem.itemErze@3] to 1xitem.ram@1
+AssemblyTable: [3xitem.spaceship@15, 3xitem.spaceship@10, 1xtile.cristall@3] to 1xitem.ram@2
+AssemblyTable: [4xitem.spaceship@15, 4xitem.spaceship@10, 1xitem.itemErze@5] to 1xitem.ram@3
+AssemblyTable: [5xitem.spaceship@15, 5xitem.spaceship@10, 1xtile.cristall@6] to 1xitem.ram@4
+AssemblyTable: [6xitem.spaceship@15, 6xitem.spaceship@10, 1xitem.itemErze@7] to 1xitem.ram@5
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@9, 1xitem.itemErze@2] to 1xitem.chip@0
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@9, 1xitem.IC@0] to 1xitem.chip@0
+AssemblyTable: [2xitem.spaceship@15, 2xitem.spaceship@9, 1xtile.cristall@6] to 1xitem.chip@1
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@9, 1xitem.bow@0] to 1xitem.chip@2
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@9, 1xitem.compass@0] to 1xitem.chip@3
+AssemblyTable: [2xitem.spaceship@15, 2xitem.spaceship@9, 1xitem.spaceship@5] to 1xitem.chip@4
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@9, 1xitem.itemErze@0] to 1xitem.chip@5
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@9, 1xitem.IT@0] to 1xitem.chip@5
+AssemblyTable: [2xitem.spaceship@15, 2xitem.spaceship@9, 1xitem.comparator@0] to 1xitem.chip@6
+AssemblyTable: [2xitem.spaceship@15, 2xitem.spaceship@9, 1xitem.itemErze@6] to 1xitem.chip@7
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@9, 1xitem.swordGold@0] to 1xitem.chip@8
+AssemblyTable: [2xitem.spaceship@15, 2xitem.spaceship@9, 1xitem.emerald@0] to 1xitem.chip@9
+AssemblyTable: [1xitem.spaceship@15, 1xitem.spaceship@8, 1xtile.cactus@0] to 1xitem.chip@10
+AssemblyTable: [1xitem.chip@1, 1xitem.spaceship@11, 1xitem.redstone@0] to 1xitem.spaceship@21
+AssemblyTable: [1xitem.chip@1, 2xitem.spaceship@7, 1xitem.itemErze@5] to 1xitem.spaceship@22
+AssemblyTable: [1xitem.chip@1, 4xitem.spaceship@9, 1xitem.itemErze@0] to 1xitem.spaceship@23
+AssemblyTable: [1xitem.chip@1, 4xitem.spaceship@9, 1xitem.IT@0] to 1xitem.spaceship@23
+AssemblyTable: [1xitem.chip@1, 1xitem.spaceship@18, 4xitem.ingotGold@0] to 1xitem.spaceship@24
+AssemblyTable: [1xitem.chip@1, 1xitem.spaceship@19, 5xitem.ingotGold@0] to 1xitem.spaceship@25
+AssemblyTable: [1xitem.chip@1, 1xitem.spaceship@20, 6xitem.itemErze@3] to 1xitem.spaceship@26
+AssemblyTable: [1xitem.slimeball@0, 1xitem.egg@0, 1xitem.chip@0] to 1xitem.entityegger@0
+AssemblyTable: [1xitem.slimeball@0, 1xtile.chest@0, 1xitem.chip@0] to 1xitem.entityegger@2
+Adding Crafting Recipes
+Setup Dust Manager
+dustGold(199) -> 1xitem.ingotGold@0 #808080
+dustAluminum(200) -> 1xitem.spaceship@13 #808080
+dustCoraliumBrick(201) -> 1xitem.cbrick@0 #808080
+dustMagnetit(202) -> 1xitem.itemErze@4 #808080
+dustGlowtit(203) -> 1xitem.itemErze@6 #808080
+dustShadow(204) -> 1xitem.SG@0 #808080
+dustDiamond(205) -> 1xitem.diamond@0 #808080
+dustZinc(206) -> 1xitem.itemErze@1 #808080
+dustLapis(207) -> 1xitem.dyePowder@4 #808080
+dustNeon(208) -> 1xitem.itemErze@3 #808080
+dustBioterium(209) -> 1xitem.itemErze@7 #808080
+dustEthaxiumBrick(210) -> 1xitem.EB@0 #808080
+dustQuartz(211) -> 1xitem.netherquartz@0 #808080
+dustTin(212) -> 1xitem.itemErze@0 #808080
+dustAbyssalnite(213) -> 1xitem.AI@0 #808080
+dustIron(214) -> 1xitem.ingotIron@0 #808080
+dustEmerald(215) -> 1xitem.emerald@0 #808080
+dustRetium(216) -> 1xitem.itemErze@5 #808080
+dustBrick(217) -> 1xitem.brick@0 #808080
+dustEthaxium(218) -> 1xitem.EI@0 #808080
+dustLiquifiedCoralium(219) -> 1xitem.RCI@0 #808080
+dustDreadium(220) -> 1xitem.DI@0 #808080
+dustCoralium(221) -> 1xitem.CG@0 #808080
+dustCopper(222) -> 1xitem.itemErze@2 #808080
+dustBrickNether(223) -> 1xitem.netherbrick@0 #808080
+Futurepack 18.7 pre successfully loaded
+Loading Chunks for ./world/The_Dark_Realm
+Loading Chunks for ./world/Omothol
+Loading Chunks for ./world/The_Dreadlands
+Loading Chunks for ./world/DIM_Space
+Loading Chunks for ./world/The_Abyss
+Loading Chunks for ./world/DIM1
+Loading Chunks for ./world/DIM-1
+Loading Chunks for ./world
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
+Start Loading Properties
+helmets
+minecraft:iron_helmet -> net.minecraft.item.ItemArmor@209775a9
+minecraft:chainmail_helmet -> net.minecraft.item.ItemArmor@47874b25
+sem:TeufelseisenHelm -> null
+chestplates
+minecraft:iron_chestplate -> net.minecraft.item.ItemArmor@18e7143f
+minecraft:chainmail_chestplate -> net.minecraft.item.ItemArmor@33617539
+sem:TeufelseisenTorso -> null
+leggings
+minecraft:iron_leggings -> net.minecraft.item.ItemArmor@f9b7332
+minecraft:chainmail_leggings -> net.minecraft.item.ItemArmor@2c177f9e
+sem:TeufelseisenHose -> null
+boots
+minecraft:iron_boots -> net.minecraft.item.ItemArmor@74cec793
+minecraft:chainmail_boots -> net.minecraft.item.ItemArmor@5db4c359
+sem:TeufelseisenSchuhe -> null
